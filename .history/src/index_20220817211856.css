@@ -11,15 +11,12 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(144, 186, 238, 0.75);
+  background-color: rgba(144, 186, 238, .75);
 }
 
-.MaterialForm > form {
+.MaterialForm {
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding: 32px;
-  min-width: 350px;
-  border-radius: 8px;
-  margin: 32px;
+  padding
 }

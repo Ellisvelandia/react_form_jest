@@ -4,7 +4,7 @@ import { object, String } from 'yup'
 
 const MaterialForm = () => {
   return (
-    <div className='MaterialForm'>
+    <div>
       <Formik>
         {() => (
           <Form>

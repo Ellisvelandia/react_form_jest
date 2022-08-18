@@ -14,7 +14,7 @@
   background-color: rgba(144, 186, 238, 0.75);
 }
 
-.MaterialForm > form {
+.MaterialForm {
   display: flex;
   flex-direction: column;
   background-color: white;
