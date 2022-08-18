@@ -27,12 +27,12 @@ const MaterialForm = () => {
               fullwidth
             />
             <Field
-              name='password'
-              type='password'
+              name='email'
+              type='email'
               as={TextField}
               variant='outlined'
               color='primary'
-              label='password'
+              label='email'
               fullwidth
             />
             <Button>Sign up</Button>
