@@ -72,7 +72,7 @@ const MaterialForm = () => {
               variant='contained'
               color='primary'
               size='large'
-              disable={!dirty || !isValid}
+              disable
             >
               Sign up
             </Button>
