@@ -1,6 +1,6 @@
 import { Button, Box, TextField } from '@mui/material'
 import { Field, Form, Formik } from 'formik'
-import { object, string } from 'yup'
+import { object, String } from 'yup'
 
 const initialValues = {
   email: '',

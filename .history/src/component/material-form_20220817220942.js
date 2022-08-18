@@ -1,6 +1,6 @@
 import { Button, Box, TextField } from '@mui/material'
 import { Field, Form, Formik } from 'formik'
-import { object, string } from 'yup'
+import { object, String } from 'yup'
 
 const initialValues = {
   email: '',
@@ -15,7 +15,7 @@ const MaterialForm = () => {
         initialValues={initialValues}
         onSubmit={(values, formikHelpers) => {
           console.log(values)
-          formikHelpers.resetForm() 
+          formikHelpers.resetForm()
         }}
         validationSchema={object({
           email: string()
@@ -51,8 +51,6 @@ const MaterialForm = () => {
               color='primary'
               label='name'
               fullwidth
-               error={Boolean(errors.name) && Boolean(touched.name)}
-              helperText={Boolean(touched.name) && errors.name}
             />
             <Box height={14} />
             <Field
@@ -63,8 +61,6 @@ const MaterialForm = () => {
               color='primary'
               label='password'
               fullwidth
-              error={Boolean(errors.password) && Boolean(touched.password)}
-              helperText={Boolean(touched.password) && errors.password}
             />
             <Box height={14} />
             <Button

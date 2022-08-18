@@ -1,6 +1,6 @@
 import { Button, Box, TextField } from '@mui/material'
 import { Field, Form, Formik } from 'formik'
-import { object, string } from 'yup'
+import { object, String } from 'yup'
 
 const initialValues = {
   email: '',
@@ -63,8 +63,8 @@ const MaterialForm = () => {
               color='primary'
               label='password'
               fullwidth
-              error={Boolean(errors.password) && Boolean(touched.password)}
-              helperText={Boolean(touched.password) && errors.password}
+              error={Boolean(errors.email) && Boolean(touched.email)}
+              helperText={Boolean(touched.email) && errors.email}
             />
             <Box height={14} />
             <Button
